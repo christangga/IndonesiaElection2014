@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet Layers Control Example</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		#map {
+			width: 1100px;
+			height: 600px;
+			display:inline-block;
+		}
+
+		#container {
+			width: 200px;
+			height: 600px;
+			display:inline-block;
+		}
+
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+
+		#grad_bar {
+			background: red; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to right, red , yellow); /* Standard syntax */
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<div id="grad_bar"></div>
+	<div id="container"></div>
+</body>
+
+<link rel="stylesheet" href="css/leaflet.css" />
+<script src="js/leaflet.js"></script>
+
+<!-- <script type="text/javascript" src="IDN_adm1.js"></script> -->
+<!-- <script type="text/javascript" src="json-data/dataDummyProv.js"></script> -->
+<script type="text/javascript" src="json-data/data-province.js"></script>
+<script type="text/javascript" src="json-data/IDN_adm2.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/chroma.js"></script>
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/exporting.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
+
