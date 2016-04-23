@@ -14,6 +14,9 @@ map.createPane('labels');
 map.getPane('labels').style.zIndex = 650;
 map.getPane('labels').style.pointerEvents = 'none';
 
+// Batas zoom map
+var mapZoom = 6;
+
 // Color for Jokowi and Prabowo
 var JKcolor = 'red';
 var PBcolor = 'yellow';
@@ -46,9 +49,16 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-	this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-		'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
-		: 'Hover over a state');
+	if(map.getZoom() >= mapZoom) {
+		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
+			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
+			: 'Hover over a state');
+	}
+	else {
+		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
+			'<b>' + props.NAME_1 + '<br /></b> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
+			: 'Hover over a state');
+	}
 };
 
 info.addTo(map);
@@ -56,7 +66,9 @@ info.addTo(map);
 
 // get color depending on population density value
 function getColor(d) {
-	var scale = chroma.scale([PBcolor, JKcolor]);
+	var scale = chroma.scale([PBcolor, JKcolor])
+		// .domain([0.019383697813121274,0.9934597646748043]);
+		.domain([0.26627515,0.907369037]);
 		return (scale(d).hex());
 }
 
@@ -113,6 +125,15 @@ function resetHighlight(e) {
 
 function zoomToFeature(e) {
 	map.fitBounds(e.target.getBounds());
+	checkIsKec(e);
+}
+
+function checkIsKec(e) {
+	if(map.getZoom() >= mapZoom) {
+		var layer = e.target;
+		createTreeMap(layer.feature.properties);
+		console.log(layer.feature.properties);
+	}
 }
 
 function onEachFeature(feature, layer) {
@@ -120,6 +141,54 @@ function onEachFeature(feature, layer) {
 		mouseover: highlightFeature,
 		mouseout: resetHighlight,
 		click: zoomToFeature
+	});
+}
+
+function createTreeMap(data) {
+	treeChart = new Highcharts.Chart({
+		chart: {
+            renderTo: 'tree-container'
+        },
+        colorAxis: {
+            minColor: '#FFFFFF',
+            maxColor: Highcharts.getOptions().colors[0]
+        },
+        series: [{
+            type: 'treemap',
+            layoutAlgorithm: 'squarified',
+            data: [{
+                name: 'A',
+                value: 6,
+                colorValue: 1
+            }, {
+                name: 'B',
+                value: 6,
+                colorValue: 2
+            }, {
+                name: 'C',
+                value: 4,
+                colorValue: 3
+            }, {
+                name: 'D',
+                value: 3,
+                colorValue: 4
+            }, {
+                name: 'E',
+                value: 2,
+                colorValue: 5
+            }, {
+                name: 'F',
+                value: 2,
+                colorValue: 6
+            }, {
+                name: 'G',
+                value: 1,
+                colorValue: 7
+            }]
+        }],
+        title: {
+            text: 'Perolehan Suara di Kecamatan'
+        }
 	});
 }
 
@@ -137,8 +206,8 @@ function createPie(data) {
 	// 	"Prabowo" : percentagePB
 	// }
 	var the_data = [];
-	the_data.push(['Jokowi',percentageJK]);
-	the_data.push(['Prabowo',percentagePB]);
+	the_data.push(['Jokowi-JK',percentageJK]);
+	the_data.push(['Prabowo-Hatta',percentagePB]);
 
 	var color = [JKcolor, PBcolor];
 
@@ -151,10 +220,10 @@ function createPie(data) {
             type: 'pie'
         },
         title: {
-            text: 'Perolehan Suara Jokowi vs Prabowo di ' + data.NAME_1
+            text: 'Perolehan Suara di ' + data.NAME_1
         },
         tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            pointFormat: '{series.name}: <b>{point.percentage:.2f}%</b>'
             // pointFormat: '{series.name}: <b></b>'
         },
         plotOptions: {
@@ -163,7 +232,6 @@ function createPie(data) {
                 cursor: 'pointer',
                 dataLabels: {
                     enabled: true,
-                    // format: '<b>{point.name}</b>: {point.percentage:.1f} %'
                 },
                 showInLegend: true
             }
@@ -186,7 +254,7 @@ function createPie(data) {
 
 map.on('zoomend', function() {
 	// alert(map.getZoom());
-	if(map.getZoom() >= 7){
+	if(map.getZoom() >= mapZoom){
 		geojsonKabupaten.addTo(map);
 		map.removeLayer(geojsonProvinsi);
 	}else{

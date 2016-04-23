@@ -13,9 +13,9 @@
 			display:inline-block;
 		}
 
-		#container {
-			width: 200px;
-			height: 600px;
+		#container, #tree-container {
+			width: 220px;
+			height: 300px;
 			display:inline-block;
 		}
 
@@ -49,8 +49,8 @@
 			background: red; /* For browsers that do not support gradients */
 			background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
 			background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-			background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
-			background: linear-gradient(to right, red, yellow); /* Standard syntax */
+			background: -moz-linear-gradient(right, yellow, red); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to right, yellow, red); /* Standard syntax */
 			width: 180px;
 			height: 18px;
 		}
@@ -79,10 +79,12 @@
 		<div id="viz-container">
 			<div id="map"></div>
 			<div id="container"></div>
+			<div id="tree-container"></div>
 		</div>
 		<div id="legend-container">
 			<div id="grad_bar"></div>
-			<div id="jk">Jokowi-JK</div><div id="pb">Prabowo-Hatta</div>
+			<div id="pb">Prabowo-Hatta</div>
+			<div id="jk">Jokowi-JK</div>
 		</div>
 	</div>
 </body>
@@ -94,11 +96,15 @@
 <!-- <script type="text/javascript" src="json-data/dataDummyProv.js"></script> -->
 <script type="text/javascript" src="json-data/data-province.js"></script>
 <!-- <script type="text/javascript" src="json-data/IDN_adm2.js"></script> -->
-<script type="text/javascript" src="json-data/dataDummyKab.js"></script>
+<!-- <script type="text/javascript" src="json-data/dataDummyKab.js"></script> -->
+<script type="text/javascript" src="json-data/data-kab.js"></script>
+<script type="text/javascript" src="json-data/dataDummyKec.js"></script>
 <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="js/chroma.js"></script>
 <script type="text/javascript" src="js/highcharts.js"></script>
 <script type="text/javascript" src="js/exporting.js"></script>
+<script type="text/javascript" src="js/heatmap.js"></script>
+<script type="text/javascript" src="js/treemap.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </html>
 
