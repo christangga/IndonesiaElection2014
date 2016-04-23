@@ -1,85 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Leaflet Layers Control Example</title>
+	<title>Tugas Besar II IF4061 - Visualisasi Data Interaktif</title>
 	<meta charset="utf-8" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<style>
-		#map {
-			width: 1100px;
-			height: 600px;
-			display:inline-block;
-		}
-
-		#container, #tree-container {
-			width: 220px;
-			height: 300px;
-			display:inline-block;
-		}
-
-		.info {
-			padding: 6px 8px;
-			font: 14px/16px Arial, Helvetica, sans-serif;
-			background: white;
-			background: rgba(255,255,255,0.8);
-			box-shadow: 0 0 15px rgba(0,0,0,0.2);
-			border-radius: 5px;
-		}
-		.info h4 {
-			margin: 0 0 5px;
-			color: #777;
-		}
-
-		.legend {
-			text-align: left;
-			line-height: 18px;
-			color: #555;
-		}
-		.legend i {
-			width: 18px;
-			height: 18px;
-			float: left;
-			margin-right: 8px;
-			opacity: 0.7;
-		}
-
-		#grad_bar {
-			background: red; /* For browsers that do not support gradients */
-			background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-			background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-			background: -moz-linear-gradient(right, yellow, red); /* For Firefox 3.6 to 15 */
-			background: linear-gradient(to right, yellow, red); /* Standard syntax */
-			width: 180px;
-			height: 18px;
-		}
-
-		#jk, #pb {
-			display: inline-block;
-		}
-
-		#legend-container, #viz-container {
-			position: absolute;
-		}
-
-		#legend-container {
-			z-index: 999;
-			margin-top: 530px;
-			margin-left: 890px;
-		}
-
-		#big-container {
-			position: relative;
-		}
-	</style>
 </head>
 <body>
 	<div id="big-container">
 		<div id="viz-container">
 			<div id="map"></div>
-			<div id="container"></div>
-			<div id="tree-container"></div>
+			<div id="total-container">
+				<div id="container"></div>
+				<div id="tree-container"></div>
+			</div>
 		</div>
 		<div id="legend-container">
 			<div id="grad_bar"></div>
@@ -90,6 +24,7 @@
 </body>
 
 <link rel="stylesheet" href="css/leaflet.css" />
+<link rel="stylesheet" href="css/style.css" />
 <script src="js/leaflet.js"></script>
 
 <!-- <script type="text/javascript" src="IDN_adm1.js"></script> -->
