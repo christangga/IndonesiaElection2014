@@ -145,13 +145,20 @@ function onEachFeature(feature, layer) {
 }
 
 function createTreeMap(data) {
+	var percentageJK = ((data.JOKOWI) / (data.JOKOWI + data.PRABOWO)) * 100;
+	var percentagePB = ((data.PRABOWO) / (data.JOKOWI + data.PRABOWO)) * 100;
+	var the_data = [];
+	the_data.push(['Jokowi-JK',percentageJK]);
+	the_data.push(['Prabowo-Hatta',percentagePB]);
+
 	treeChart = new Highcharts.Chart({
 		chart: {
             renderTo: 'tree-container'
         },
         colorAxis: {
-            minColor: '#FFFFFF',
-            maxColor: Highcharts.getOptions().colors[0]
+            minColor: PBcolor,
+            maxColor: JKcolor
+            // maxColor: Highcharts.getOptions().colors[0]
         },
         series: [{
             type: 'treemap',
