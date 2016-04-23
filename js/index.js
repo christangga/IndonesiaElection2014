@@ -150,6 +150,7 @@ function createTreeMap(data) {
 	var the_data = [];
 	the_data.push(['Jokowi-JK',percentageJK]);
 	the_data.push(['Prabowo-Hatta',percentagePB]);
+	// var dataKecamatan --> data kec disimpan dalam array
 
 	treeChart = new Highcharts.Chart({
 		chart: {
