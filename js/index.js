@@ -46,8 +46,8 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-	this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
-		'<b>' + props.NAME_1 + '</b><br /> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
+	this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
+		'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
 		: 'Hover over a state');
 };
 
@@ -162,7 +162,8 @@ function createPie(data) {
                 allowPointSelect: true,
                 cursor: 'pointer',
                 dataLabels: {
-                    enabled: false
+                    enabled: true,
+                    // format: '<b>{point.name}</b>: {point.percentage:.1f} %'
                 },
                 showInLegend: true
             }
@@ -171,6 +172,13 @@ function createPie(data) {
         	name: 'Persentase',
             // colorByPoint: true,
             data: the_data,
+            dataLabels: {
+			    color:'black',
+			    distance: -40,
+			    formatter: function () {
+			        if(this.percentage!=0)  return Math.round(this.percentage)  + '%';
+			    }
+			}
 	    }],
 	});
 	// }).setOptions({colors: ['red','yellow']});
