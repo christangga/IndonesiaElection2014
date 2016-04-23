@@ -50,15 +50,41 @@
 			background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
 			background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
 			background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 */
-			background: linear-gradient(to right, red , yellow); /* Standard syntax */
+			background: linear-gradient(to right, red, yellow); /* Standard syntax */
+			width: 180px;
+			height: 18px;
+		}
+
+		#jk, #pb {
+			display: inline-block;
+		}
+
+		#legend-container, #viz-container {
 			position: absolute;
+		}
+
+		#legend-container {
+			z-index: 999;
+			margin-top: 530px;
+			margin-left: 890px;
+		}
+
+		#big-container {
+			position: relative;
 		}
 	</style>
 </head>
 <body>
-	<div id="map"></div>
-	<div id="grad_bar"></div>
-	<div id="container"></div>
+	<div id="big-container">
+		<div id="viz-container">
+			<div id="map"></div>
+			<div id="container"></div>
+		</div>
+		<div id="legend-container">
+			<div id="grad_bar"></div>
+			<div id="jk">Jokowi-JK</div><div id="pb">Prabowo-Hatta</div>
+		</div>
+	</div>
 </body>
 
 <link rel="stylesheet" href="css/leaflet.css" />

@@ -140,7 +140,10 @@ function createPie(data) {
 	the_data.push(['Jokowi',percentageJK]);
 	the_data.push(['Prabowo',percentagePB]);
 
+	var color = [JKcolor, PBcolor];
+
 	$('#container').highcharts({
+		colors: color,
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: null,
@@ -151,8 +154,8 @@ function createPie(data) {
             text: 'Perolehan Suara Jokowi vs Prabowo di ' + data.NAME_1
         },
         tooltip: {
-            // pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-            pointFormat: '{series.name}: <b></b>'
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            // pointFormat: '{series.name}: <b></b>'
         },
         plotOptions: {
             pie: {
@@ -167,9 +170,10 @@ function createPie(data) {
         series: [{
         	name: 'Persentase',
             // colorByPoint: true,
-            data: the_data
+            data: the_data,
 	    }],
-	}).setOptions({colors: ['red','yellow']});
+	});
+	// }).setOptions({colors: ['red','yellow']});
 }
 
 map.on('zoomend', function() {
