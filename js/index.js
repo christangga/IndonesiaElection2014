@@ -132,7 +132,7 @@ function checkIsKec(e) {
 	if(map.getZoom() >= mapZoom) {
 		var layer = e.target;
 		createTreeMap(layer.feature.properties);
-		console.log(layer.feature.properties);
+		// console.log(layer.feature.properties);
 	}
 }
 
@@ -145,54 +145,49 @@ function onEachFeature(feature, layer) {
 }
 
 function createTreeMap(data) {
-	var percentageJK = ((data.JOKOWI) / (data.JOKOWI + data.PRABOWO)) * 100;
-	var percentagePB = ((data.PRABOWO) / (data.JOKOWI + data.PRABOWO)) * 100;
-	var the_data = [];
-	the_data.push(['Jokowi-JK',percentageJK]);
-	the_data.push(['Prabowo-Hatta',percentagePB]);
+	// console.log(data);
+	var provinceName = data.NAME_1;
+	var cityName = data.NAME_2;
+
 	// var dataKecamatan --> data kec disimpan dalam array
+	var found = false;
+	var arrLen = dataKecamatan.length;
+	var i = 0;
+
+	// var objKec = dataKecamatan[0];
+	// console.log(objKec);
+
+	var listKec = [];
+
+	while ((!found) && (i<arrLen)) {
+		var objKab = dataKecamatan[i];
+		if (objKab["Kota/Kabupaten"] == cityName) {
+			var percentage = objKab["Jokowi-JK"] / (objKab["Jokowi-JK"] + objKab["Prabowo-Hatta"]);
+			var objKec = {
+				name: objKab["Tempat"],
+				value: percentage,
+				colorValue: percentage
+			}
+			listKec.push(objKec);
+		}
+		i++;
+	}
+	console.log(listKec);
+	console.log("panjang list kec:" + listKec.length);
 
 	treeChart = new Highcharts.Chart({
 		chart: {
             renderTo: 'tree-container'
         },
         colorAxis: {
-            minColor: PBcolor,
-            maxColor: JKcolor
-            // maxColor: Highcharts.getOptions().colors[0]
+            minColor: '#FFFFFF',
+            // maxColor: JKcolor
+            maxColor: Highcharts.getOptions().colors[0]
         },
         series: [{
             type: 'treemap',
             layoutAlgorithm: 'squarified',
-            data: [{
-                name: 'A',
-                value: 6,
-                colorValue: 1
-            }, {
-                name: 'B',
-                value: 6,
-                colorValue: 2
-            }, {
-                name: 'C',
-                value: 4,
-                colorValue: 3
-            }, {
-                name: 'D',
-                value: 3,
-                colorValue: 4
-            }, {
-                name: 'E',
-                value: 2,
-                colorValue: 5
-            }, {
-                name: 'F',
-                value: 2,
-                colorValue: 6
-            }, {
-                name: 'G',
-                value: 1,
-                colorValue: 7
-            }]
+            data: listKec
         }],
         title: {
             text: 'Perolehan Suara di Kecamatan'
