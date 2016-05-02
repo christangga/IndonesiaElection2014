@@ -78,11 +78,16 @@
 }
 
 #big-container {
+	margin-top: 25px;
 	position: relative;
 }
 
-h1 {
+.outer-container h1 {
+	text-transform: uppercase;
 	text-align: center;
+	font-family: "Bebas Neue";
+	font-size: 56px;
+	margin-bottom: 25px;
 }
 
 .outer-container {
@@ -91,12 +96,20 @@ h1 {
 }
 
 .subtitle {
-	text-align: justify;
-	display:inline-block;
-	max-width: 500px;
-	vertical-align: middle;
+	display:table-row;
+	margin-bottom: 40px;
 }
 
+.subtitle p{
+	text-align: justify;
+	display:table-cell;
+	vertical-align: middle;
+	padding: 0 20px;
+}
+.subtitle-img{
+	height: 150px;
+	display: table-cell;
+}
 body {
 	font-family: 'Roboto Condensed';
 }
