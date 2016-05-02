@@ -92,6 +92,9 @@ h1 {
 
 .subtitle {
 	text-align: justify;
+	display:inline-block;
+	max-width: 500px;
+	vertical-align: middle;
 }
 
 body {
