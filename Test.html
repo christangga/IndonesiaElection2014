@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Tugas Besar II IF4061 - Visualisasi Data Interaktif</title>
-	<meta charset="utf-8" />
+  <head>
+    <title>Tugas Besar II IF4061 - Visualisasi Data Interaktif</title>
+    <meta charset="utf-8" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<div id="big-container">
-		<div id="viz-container">
-			<div id="map"></div>
-			<div id="total-container">
-				<div id="container"></div>
-				<div id="tree-container"></div>
-			</div>
-		</div>
-		<div id="legend-container">
-			<div id="grad_bar"></div>
-			<div id="pb">Prabowo-Hatta</div>
-			<div id="jk">Jokowi-JK</div>
-		</div>
-	</div>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-<link rel="stylesheet" href="css/leaflet.css" />
-<link rel="stylesheet" href="css/style.css" />
-<script src="js/leaflet.js"></script>
+  <body>
+    <div class="outer-container">
+      <h1>Pilpres Indonesia 2014</h1>
 
-<!-- <script type="text/javascript" src="IDN_adm1.js"></script> -->
-<!-- <script type="text/javascript" src="json-data/dataDummyProv.js"></script> -->
-<script type="text/javascript" src="json-data/data-province.js"></script>
-<!-- <script type="text/javascript" src="json-data/IDN_adm2.js"></script> -->
-<!-- <script type="text/javascript" src="json-data/dataDummyKab.js"></script> -->
-<script type="text/javascript" src="json-data/data-kab.js"></script>
-<script type="text/javascript" src="json-data/dataDummyKec.js"></script>
-<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="js/chroma.js"></script>
-<script type="text/javascript" src="js/highcharts.js"></script>
-<script type="text/javascript" src="js/exporting.js"></script>
-<script type="text/javascript" src="js/heatmap.js"></script>
-<script type="text/javascript" src="js/treemap.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+      <p class="subtitle">Pada Pilpres 2014, terdapat 2 pasangan capres dan cawapres yang diajukan. Prabowo-Hatta diusung oleh Koalisi Merah Putih (KMP) sedangkan Jokowi-JK diusung oleh Koalisi Indonesia Hebat (KIH)</p>
+
+      <div id="big-container">
+        <div id="viz-container">
+          <div id="map"></div>
+          <div id="total-container">
+            <div id="container"></div>
+            <div id="tree-container"></div>
+          </div>
+        </div>
+        <div id="legend-container">
+          <div id="grad_bar"></div>
+          <div id="pb">Prabowo-Hatta</div>
+          <div id="jk">Jokowi-JK</div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/leaflet.js"></script>
+
+  <!-- <script type="text/javascript" src="IDN_adm1.js"></script> -->
+  <!-- <script type="text/javascript" src="json-data/dataDummyProv.js"></script> -->
+  <script type="text/javascript" src="json-data/data-province.js"></script>
+  <!-- <script type="text/javascript" src="json-data/IDN_adm2.js"></script> -->
+  <!-- <script type="text/javascript" src="json-data/dataDummyKab.js"></script> -->
+  <script type="text/javascript" src="json-data/data-kab.js"></script>
+  <script type="text/javascript" src="json-data/dataDummyKec.js"></script>
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/chroma.js"></script>
+  <script type="text/javascript" src="js/highcharts.js"></script>
+  <script type="text/javascript" src="js/exporting.js"></script>
+  <script type="text/javascript" src="js/heatmap.js"></script>
+  <script type="text/javascript" src="js/treemap.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </html>
-

@@ -18,8 +18,8 @@ map.getPane('labels').style.pointerEvents = 'none';
 var mapZoom = 6;
 
 // Color for Jokowi and Prabowo
-var JKcolor = 'red';
-var PBcolor = 'yellow';
+var JKcolor = '#ff0000';
+var PBcolor = '#ffcc00';
 
 // L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
 // 	maxZoom: 18,
@@ -31,8 +31,7 @@ var PBcolor = 'yellow';
 
 var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
         attribution: '©OpenStreetMap, ©CartoDB'
-}).addTo(map);
-
+});
 
 var positronLabels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
         attribution: '©OpenStreetMap, ©CartoDB',
@@ -51,12 +50,12 @@ info.onAdd = function (map) {
 info.update = function (props) {
 	if(map.getZoom() >= mapZoom) {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
+			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ', Prabowo-Hatta: ' + props.PRABOWO
 			: 'Hover over a state');
 	}
 	else {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-			'<b>' + props.NAME_1 + '<br /></b> Jokowi-JK:' + props.JOKOWI + ' ,Prabowo-Hatta: ' + props.PRABOWO
+			'<b>' + props.NAME_1 + '<br /></b> Jokowi-JK:' + props.JOKOWI + ', Prabowo-Hatta: ' + props.PRABOWO
 			: 'Hover over a state');
 	}
 };
@@ -66,9 +65,10 @@ info.addTo(map);
 
 // get color depending on population density value
 function getColor(d) {
-	var scale = chroma.scale([PBcolor, JKcolor])
-		// .domain([0.019383697813121274,0.9934597646748043]);
-		.domain([0.26627515,0.907369037]);
+	var scale = chroma.scale([PBcolor, 'white',JKcolor])
+		// .domain([0.019383697813121274,0.5,0.9934597646748043]);
+		// .domain([0.26627515,0.5,0.907369037]);
+		.domain([0.19383697813121274,0.5,0.7934597646748043]);
 		return (scale(d).hex());
 }
 
@@ -86,11 +86,11 @@ function getColor2(d) {
 function style(feature) {
 	var percentage = ((feature.properties.JOKOWI) / (feature.properties.JOKOWI + feature.properties.PRABOWO));
 	return {
-		weight: 2,
+		weight: 1,
 		opacity: 1,
-		color: 'white',
+		color: 'grey',
 		dashArray: '3',
-		fillOpacity: 0.7,
+		fillOpacity: 0.8,
 		fillColor: getColor(percentage)
 	};
 }
@@ -100,7 +100,7 @@ function highlightFeature(e) {
 
 	layer.setStyle({
 		weight: 2,
-		color: '#666',
+		color: '#404040',
 		dashArray: '',
 		fillOpacity: 0.7
 	});

@@ -80,3 +80,20 @@
 #big-container {
 	position: relative;
 }
+
+h1 {
+	text-align: center;
+}
+
+.outer-container {
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+
+.subtitle {
+	text-align: justify;
+}
+
+body {
+	font-family: 'Roboto Condensed';
+}
