@@ -14,8 +14,12 @@ map.createPane('labels');
 map.getPane('labels').style.zIndex = 650;
 map.getPane('labels').style.pointerEvents = 'none';
 
+// console.log(statesData.features[5].properties);
+
 // Batas zoom map
 var mapZoom = 6;
+var mapZoomProvince = 5;
+var mapZoomKec = 7;
 
 // Color for Jokowi and Prabowo
 var JKcolor = '#ff0000';
@@ -62,6 +66,18 @@ info.update = function (props) {
 
 info.addTo(map);
 
+// generate bar chart
+map.on('zoomend', function() {
+	if(map.getZoom() == mapZoomProvince) {
+		// Zoom level: provinsi
+		var zoomLevel = 1;
+		createBarChart('', 1, zoomLevel); // utk prabowo
+		createBarChart('', 2, zoomLevel); // utk jokowi
+	}
+});
+
+createBarChart('', 1, 1); // utk prabowo
+createBarChart('', 2, 1); // utk jokowi
 
 // get color depending on population density value
 function getColor(d) {
@@ -126,6 +142,8 @@ function resetHighlight(e) {
 function zoomToFeature(e) {
 	map.fitBounds(e.target.getBounds());
 	checkIsKec(e);
+	generateBarChart(e, 1); // prabowo
+	generateBarChart(e, 2); // jokowi
 }
 
 function checkIsKec(e) {
@@ -134,6 +152,31 @@ function checkIsKec(e) {
 		createTreeMap(layer.feature.properties);
 		// console.log(layer.feature.properties);
 	}
+}
+
+function generateBarChart(e, type) {
+	// type == 1 utk Prabowo, 2 utk Jokowi
+	var layer = e.target;
+
+	// if(map.getZoom() >= mapZoomKec) {
+	// 	// Zoom level: kecamatan
+	// 	var zoomLevel = 3;
+	// }
+	
+	// else if(map.getZoom() >= mapZoom) {
+
+	map.on('zoomend', function() {
+		if(map.getZoom() >= mapZoom) {
+			// Zoom level: kabupaten
+			var zoomLevel = 2;
+		}
+		else if(map.getZoom() >= mapZoomProvince) {
+			// Zoom level: provinsi
+			var zoomLevel = 1;
+		}
+
+		createBarChart(layer.feature.properties, type, zoomLevel);
+	});
 }
 
 function onEachFeature(feature, layer) {
@@ -172,8 +215,8 @@ function createTreeMap(data) {
 		}
 		i++;
 	}
-	console.log(listKec);
-	console.log("panjang list kec:" + listKec.length);
+	// console.log(listKec);
+	// console.log("panjang list kec:" + listKec.length);
 
 	treeChart = new Highcharts.Chart({
 		chart: {
@@ -253,6 +296,167 @@ function createPie(data) {
 	    }],
 	});
 	// }).setOptions({colors: ['red','yellow']});
+}
+
+function createBarChart(data, type, zoomLevel) {
+	// type == 1 utk Prabowo, 2 utk Jokowi
+	// zoomLevel == 1 utk province level, 2 utk kabupaten, 3 utk kecamatan
+	if (type == 1) {
+		var container = 'bar-pb';
+		var title = 'Prabowo-Hatta';
+		var color = PBcolor;
+	}
+	else if (type == 2) {
+		var container = 'bar-jk';
+		var title = 'Jokowi-JK';
+		var color = JKcolor;
+	}
+
+	if (zoomLevel == 1) {
+		var tingkat = 'Provinsi';
+		var arrLen = statesData.features.length;
+	}
+	else if (zoomLevel == 2) {
+		var tingkat = 'Kota/Kabupaten untuk Provinsi ' + data.NAME_1;
+		var arrLen = dataKabupaten.features.length;
+		var provinceName = data.NAME_1;
+		var cityName = data.NAME_2;
+	}
+	else if (zoomLevel == 3) {
+		var tingkat = 'Kecamatan';
+		var arrLen = dataKecamatan.length;
+		var cityName = data.NAME_2;
+		// var kecamatanName = data.NAME_2;
+	}
+
+	var listCategory = [];
+	var listValue = [];
+	
+	for (var i=0; i<arrLen; i++) {
+		if (zoomLevel == 1) {
+			var objKab = statesData.features[i].properties;
+			if (type == 1) {
+				if (objKab["PRABOWO"] > objKab["JOKOWI"]) {
+					var percentage = (objKab["PRABOWO"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
+					listCategory.push(objKab["NAME_1"]);
+					var objRes = {
+						y: percentage,
+						color: color
+					}
+					listValue.push(objRes);
+				}
+			}
+			else if (type == 2) {
+				if (objKab["JOKOWI"] > objKab["PRABOWO"]) {
+					var percentage = (objKab["JOKOWI"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
+					listCategory.push(objKab["NAME_1"]);
+					var objRes = {
+						y: percentage,
+						color: color
+					}
+					listValue.push(objRes);
+				}
+			}
+		}
+
+		else if (zoomLevel == 2) {
+			var objKab = dataKabupaten.features[i].properties;
+			if (objKab["NAME_1"] == provinceName) {
+				if (type == 1) {
+					if (objKab["PRABOWO"] > objKab["JOKOWI"]) {
+						var percentage = (objKab["PRABOWO"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
+						listCategory.push(objKab["NAME_2"]);
+						var objRes = {
+							// name: objKab["NAME_2"],
+							y: percentage,
+							color: color
+						}
+						listValue.push(objRes);
+					}
+				}
+				else if (type == 2) {
+					if (objKab["JOKOWI"] > objKab["PRABOWO"]) {
+						var percentage = (objKab["JOKOWI"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
+						listCategory.push(objKab["NAME_2"]);
+						var objRes = {
+							// name: objKab["NAME_2"],
+							y: percentage,
+							color: color
+						}
+						listValue.push(objRes);
+					}
+				}
+			}
+		}
+		// else if (zoomLevel == 3) {
+		// 	var objKab = dataKecamatan[i];
+		// 	if (objKab["Kota/Kabupaten"] == cityName) {
+
+		// 	}
+		// }
+	}
+
+	// Sorting listValue dan listCategory mengikuti order listValue
+
+
+	var name = 'Persentase perolehan suara';
+    barChart = new Highcharts.Chart({
+        chart: {
+            type: 'bar',
+            renderTo: container
+        },
+        title: {
+            text: 'Dominasi Perolehan Suara untuk ' + title
+        },
+        subtitle: {
+            text: 'di Tingkat ' + tingkat
+        },
+        xAxis: {
+            categories: listCategory,
+            title: {
+                text: null
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Persentase Perolehan Suara',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        tooltip: {
+            valueSuffix: ' %'
+        },
+        plotOptions: {
+            bar: {
+                dataLabels: {
+                    enabled: true
+                }
+            }
+        },
+        // legend: {
+        //     layout: 'vertical',
+        //     align: 'right',
+        //     verticalAlign: 'top',
+        //     x: -40,
+        //     y: 80,
+        //     floating: true,
+        //     borderWidth: 1,
+        //     backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+        //     shadow: true
+        // },
+        credits: {
+            enabled: false
+        },
+        series: [{
+        	name: name,
+        	data: listValue,
+        	color: color
+    	}]
+    });
 }
 
 map.on('zoomend', function() {
