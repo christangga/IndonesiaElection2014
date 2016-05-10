@@ -75,7 +75,8 @@ map.on('zoomend', function() {
 		createBarChart('', 2, zoomLevel); // utk jokowi
 	}
 });
-
+var suaraJK = 70997607, suaraPB = 62576585;
+createStackedBar(suaraJK, suaraPB);
 createBarChart('', 1, 1); // utk prabowo
 createBarChart('', 2, 1); // utk jokowi
 
@@ -296,6 +297,71 @@ function createPie(data) {
 	    }],
 	});
 	// }).setOptions({colors: ['red','yellow']});
+}
+
+function createStackedBar(suaraJK, suaraPB) {
+	stackedBar = new Highcharts.Chart({
+        chart: {
+            renderTo: 'stackedBar',
+            type: 'bar'
+        },
+        title: {
+            text: ''
+        },
+        xAxis: {
+            categories: [''],
+            lineWidth: 0,
+			minorGridLineWidth: 0,
+			lineColor: 'transparent',
+			labels: {
+				enabled: false
+			},
+			minorTickLength: 0,
+			tickLength: 0
+        },
+        yAxis: {
+            min: 0,
+            gridLineColor: 'transparent',
+            title: {
+				text: ''
+            },
+            labels: {
+				enabled: false
+            }
+        },
+        legend: {
+            reversed: true
+        },
+        plotOptions: {
+            series: {
+                stacking: 'normal'
+            }
+        },
+        exporting: { 
+        	enabled: false 
+        },
+        credits: {
+            enabled: false
+        },
+        tooltip : {
+	        formatter: function() {
+	            var tooltip = '<b>Persentase perolehan suara: </b>' + (this.y/(suaraJK+suaraPB))*100 + '%'
+	            				+ '<br><b>Total suara diperoleh: </b>' + this.y;
+	            return tooltip;
+	        }
+	    },
+        series: [{
+            name: 'Jokowi-JK',
+            data: [suaraJK],
+            showInLegend: false,
+            color: JKcolor
+        },{
+            name: 'Prabowo-Hatta',
+            data: [suaraPB],
+            showInLegend: false,
+            color: PBcolor
+        }]
+    });
 }
 
 function createBarChart(data, type, zoomLevel) {

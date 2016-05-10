@@ -113,3 +113,7 @@
 body {
 	font-family: 'Roboto Condensed';
 }
+
+#stackedBar {
+	height: 100px;
+}
