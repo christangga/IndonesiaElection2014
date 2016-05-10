@@ -47,10 +47,10 @@
 
 #grad_bar {
 	background: red; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(right, yellow, red); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to right, yellow, red); /* Standard syntax */
+	background: -webkit-linear-gradient(left, red, white, yellow); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, yellow, white, red); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, yellow, white, red); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, yellow, white, red); /* Standard syntax */
 	width: 180px;
 	height: 18px;
 }
