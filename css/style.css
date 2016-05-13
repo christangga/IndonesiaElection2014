@@ -11,8 +11,20 @@
 	vertical-align: top;
 	display: table-row;
 }
+
 #tree-container {
+
 }
+
+.end-note{
+	display: block;
+	text-align: right;
+	font-size: x-small;
+	position: relative;
+	float: right;
+	padding-bottom: 30px;
+}
+
 #total-container{
 	display:inline-block;
 	float: right;
