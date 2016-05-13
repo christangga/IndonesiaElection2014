@@ -278,7 +278,7 @@ function createPie(data) {
                 allowPointSelect: true,
                 cursor: 'pointer',
                 dataLabels: {
-                    enabled: true,
+                    enabled: false,
                 },
                 showInLegend: true
             }
@@ -345,8 +345,8 @@ function createStackedBar(suaraJK, suaraPB) {
         },
         tooltip : {
 	        formatter: function() {
-	            var tooltip = '<b>Persentase perolehan suara: </b>' + (this.y/(suaraJK+suaraPB))*100 + '%'
-	            				+ '<br><b>Total suara diperoleh: </b>' + this.y;
+	            var tooltip = '<b>Persentase perolehan suara: </b>' + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%'
+	            				+ '<br><b>Total suara diperoleh: </b>' + numberWithCommas(this.y);
 	            return tooltip;
 	        }
 	    },
@@ -406,7 +406,7 @@ function createBarChart(data, type, zoomLevel) {
 					var percentage = (objKab["PRABOWO"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
 					listCategory.push(objKab["NAME_1"]);
 					var objRes = {
-						y: percentage,
+						y: Math.round(percentage * 100) / 100,
 						color: color
 					}
 					listValue.push(objRes);
@@ -417,7 +417,7 @@ function createBarChart(data, type, zoomLevel) {
 					var percentage = (objKab["JOKOWI"] / (objKab["JOKOWI"] + objKab["PRABOWO"])) * 100;
 					listCategory.push(objKab["NAME_1"]);
 					var objRes = {
-						y: percentage,
+						y: Math.round(percentage * 100) / 100,
 						color: color
 					}
 					listValue.push(objRes);
@@ -434,7 +434,7 @@ function createBarChart(data, type, zoomLevel) {
 						listCategory.push(objKab["NAME_2"]);
 						var objRes = {
 							// name: objKab["NAME_2"],
-							y: percentage,
+							y: Math.round(percentage * 100) / 100,
 							color: color
 						}
 						listValue.push(objRes);
@@ -446,7 +446,7 @@ function createBarChart(data, type, zoomLevel) {
 						listCategory.push(objKab["NAME_2"]);
 						var objRes = {
 							// name: objKab["NAME_2"],
-							y: percentage,
+							y: Math.round(percentage * 100) / 100,
 							color: color
 						}
 						listValue.push(objRes);
@@ -463,7 +463,18 @@ function createBarChart(data, type, zoomLevel) {
 	}
 
 	// Sorting listValue dan listCategory mengikuti order listValue
-
+	for (var i=0; i<listValue.length-1; ++i) {
+		for (var j=i+1; j<listValue.length; ++j) {
+			if (listValue[i].y < listValue[j].y) {
+				var tempValue = listValue[i];
+				listValue[i] = listValue[j];
+				listValue[j] = tempValue;
+				var tempCategory = listCategory[i];
+				listCategory[i] = listCategory[j];
+				listCategory[j] = tempCategory;
+			}
+		}
+	}
 
 	var name = 'Persentase perolehan suara';
     barChart = new Highcharts.Chart({
@@ -499,7 +510,7 @@ function createBarChart(data, type, zoomLevel) {
         plotOptions: {
             bar: {
                 dataLabels: {
-                    enabled: true
+                    enabled: false
                 }
             }
         },
@@ -585,3 +596,7 @@ legend.onAdd = function (map) {
 };
 
 // legend.addTo(map);
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
