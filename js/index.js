@@ -54,12 +54,12 @@ info.onAdd = function (map) {
 info.update = function (props) {
 	if(map.getZoom() >= mapZoom) {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Jokowi-JK:' + props.JOKOWI + ', Prabowo-Hatta: ' + props.PRABOWO
+			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Prabowo-Hatta: ' + numberWithCommas(props.PRABOWO) + ', Jokowi-JK: ' + numberWithCommas(props.JOKOWI)
 			: 'Hover over a state');
 	}
 	else {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-			'<b>' + props.NAME_1 + '<br /></b> Jokowi-JK:' + props.JOKOWI + ', Prabowo-Hatta: ' + props.PRABOWO
+			'<b>' + props.NAME_1 + '<br /></b> Prabowo-Hatta: ' + numberWithCommas(props.PRABOWO) + ', Jokowi-JK: ' + numberWithCommas(props.JOKOWI)
 			: 'Hover over a state');
 	}
 };
@@ -206,10 +206,10 @@ function createTreeMap(data) {
 	while ((!found) && (i<arrLen)) {
 		var objKab = dataKecamatan[i];
 		if (objKab["Kota/Kabupaten"] == cityName) {
-			var percentage = objKab["Jokowi-JK"] / (objKab["Jokowi-JK"] + objKab["Prabowo-Hatta"]);
+			var percentage = objKab["Jokowi-JK"] / (objKab["Jokowi-JK"] + objKab["Prabowo-Hatta"]) * 100;
 			var objKec = {
 				name: objKab["Tempat"],
-				value: percentage,
+				value: Math.floor(percentage * 100) / 100,
 				colorValue: percentage
 			}
 			listKec.push(objKec);
@@ -345,8 +345,8 @@ function createStackedBar(suaraJK, suaraPB) {
         },
         tooltip : {
 	        formatter: function() {
-	            var tooltip = '<b>Persentase perolehan suara: </b>' + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%'
-	            				+ '<br><b>Total suara diperoleh: </b>' + numberWithCommas(this.y);
+	            var tooltip = '<b>Persentase Perolehan Suara: </b>' + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%'
+	            				+ '<br><b>Total Suara Diperoleh: </b>' + numberWithCommas(this.y);
 	            return tooltip;
 	        }
 	    },
@@ -476,17 +476,20 @@ function createBarChart(data, type, zoomLevel) {
 		}
 	}
 
-	var name = 'Persentase perolehan suara';
+	// listCategory = [];
+	// listValue = [];
+
     barChart = new Highcharts.Chart({
         chart: {
             type: 'bar',
+            height: 130 + 25 * listCategory.length,
             renderTo: container
         },
         title: {
             text: 'Dominasi Perolehan Suara untuk ' + title
         },
         subtitle: {
-            text: 'di Tingkat ' + tingkat
+            text: 'Tingkat ' + tingkat
         },
         xAxis: {
             categories: listCategory,
@@ -495,9 +498,10 @@ function createBarChart(data, type, zoomLevel) {
             }
         },
         yAxis: {
-            min: 0,
+        	min: 0,
+        	max: 100,
             title: {
-                text: 'Persentase Perolehan Suara',
+                text: '%',
                 align: 'high'
             },
             labels: {
@@ -529,7 +533,8 @@ function createBarChart(data, type, zoomLevel) {
             enabled: false
         },
         series: [{
-        	name: name,
+        	showInLegend: false,
+        	name: 'Persentase Perolehan Suara',
         	data: listValue,
         	color: color
     	}]
@@ -598,5 +603,5 @@ legend.onAdd = function (map) {
 // legend.addTo(map);
 
 function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
