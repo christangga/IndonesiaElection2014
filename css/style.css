@@ -5,13 +5,14 @@
 	display:inline-block;
 }
 
-#container, #tree-container {
+#container{
 	width: 220px;
 	height: 300px;
 	vertical-align: top;
 	display: table-row;
 }
-
+#tree-container {
+}
 #total-container{
 	display:inline-block;
 	float: right;
@@ -61,6 +62,11 @@
 
 #jk, #pb {
 	display: inline-block;
+	width: 49%;
+}
+
+#jk{
+	text-align: right;
 }
 
 #legend-container, #viz-container {
@@ -73,8 +79,15 @@
 
 #legend-container {
 	z-index: 999;
-	margin-top: 530px;
-	margin-left: 890px;
+	margin-top: 350px;
+	margin-left: 20px;
+	/*font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+}
+
+.legend-text-container{
+	height: 180px;
 }
 
 #big-container {
@@ -111,9 +124,13 @@
 	display: table-cell;
 }
 body {
-	font-family: 'Roboto Condensed';
+	/*font-family: 'Roboto Condensed';*/
+	font-family: 'Lato', sans-serif;
 }
 
+body svg {
+	font-family: 'Lato', sans-serif !important;
+}
 #stackedBar {
 	height: 100px;
 }

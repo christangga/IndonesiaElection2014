@@ -7,7 +7,7 @@ var southWest = L.latLng(-11.82434, 93.03223),
 var map = L.map('map', {
 	maxBounds: bounds,
     maxZoom: 17,
-    minZoom: 5
+    minZoom: 4.5
 }).setView([-0.74705, 117.68555], 5);
 
 map.createPane('labels');
