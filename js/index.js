@@ -54,13 +54,13 @@ info.onAdd = function (map) {
 info.update = function (props) {
 	if(map.getZoom() >= mapZoom) {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
-			'<b>' + props.NAME_1 + '<br />Kota ' + props.NAME_2 + '</b>' + '<br /> Prabowo-Hatta: ' + numberWithCommas(props.PRABOWO) + ', Jokowi-JK: ' + numberWithCommas(props.JOKOWI)
-			: 'Hover over a state');
+			'<b>' + props.NAME_1 + '<br />' + (props.NAME_2.startsWith('Kota') ? '' : 'Kota/Kabupaten ') + props.NAME_2 + '</b>' + '<br /> Prabowo-Hatta: ' + numberWithCommas(props.PRABOWO) + ', Jokowi-JK: ' + numberWithCommas(props.JOKOWI)
+			: 'Arahkan Kursor ke Kota/Kabupaten');
 	}
 	else {
 		this._div.innerHTML = '<h4>Provinsi</h4>' +  (props ?
 			'<b>' + props.NAME_1 + '<br /></b> Prabowo-Hatta: ' + numberWithCommas(props.PRABOWO) + ', Jokowi-JK: ' + numberWithCommas(props.JOKOWI)
-			: 'Hover over a state');
+			: 'Arahkan Kursor ke Provinsi');
 	}
 };
 
