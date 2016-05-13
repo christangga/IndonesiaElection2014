@@ -73,6 +73,9 @@ map.on('zoomend', function() {
 		var zoomLevel = 1;
 		createBarChart('', 1, zoomLevel); // utk prabowo
 		createBarChart('', 2, zoomLevel); // utk jokowi
+		// $('#tree-container').hide('slow');
+		var treeContainer = document.getElementById("tree-container");
+		treeContainer.style.display = 'none';
 	}
 });
 var suaraJK = 70997607, suaraPB = 62576585;
@@ -224,9 +227,9 @@ function createTreeMap(data) {
             renderTo: 'tree-container'
         },
         colorAxis: {
-            minColor: '#FFFFFF',
-            // maxColor: JKcolor
-            maxColor: Highcharts.getOptions().colors[0]
+            minColor: PBcolor,
+            maxColor: JKcolor
+            // maxColor: Highcharts.getOptions().colors[0]
         },
         series: [{
             type: 'treemap',
@@ -234,24 +237,28 @@ function createTreeMap(data) {
             data: listKec
         }],
         title: {
-            text: 'Perolehan Suara di Kecamatan'
+            text: 'Perolehan Suara di Kecamatan untuk Provinsi ' + provinceName
         }
 	});
+
+	// $('#tree-container').show('slow');
+	var treeContainer = document.getElementById("tree-container");
+	treeContainer.style.display = 'block';
 }
 
 function createPie(data) {
 	var percentageJK = ((data.JOKOWI) / (data.JOKOWI + data.PRABOWO)) * 100;
 	var percentagePB = ((data.PRABOWO) / (data.JOKOWI + data.PRABOWO)) * 100;
-	// var new_data = {};
-	// new_data['Jokowi-JK'] = percentageJK;
-	// new_data['Prabowo-Hatta'] = percentagePB;
-	// // console.log(new_data);
-	// var data_fix = JSON.stringify(new_data);
-	// console.log(data_fix);
-	// var super_data = {
-	// 	"Jokowi" : percentageJK,
-	// 	"Prabowo" : percentagePB
-	// }
+
+	if(map.getZoom() >= mapZoom) {
+		// Zoom level: kabupaten
+		var text = 'Perolehan Suara di ' + data.NAME_2;
+	}
+	else if(map.getZoom() >= mapZoomProvince) {
+		// Zoom level: provinsi
+		var text = 'Perolehan Suara di ' + data.NAME_1;
+	}
+	
 	var the_data = [];
 	the_data.push(['Jokowi-JK',percentageJK]);
 	the_data.push(['Prabowo-Hatta',percentagePB]);
@@ -267,7 +274,7 @@ function createPie(data) {
             type: 'pie'
         },
         title: {
-            text: 'Perolehan Suara di ' + data.NAME_1
+            text: text
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.2f}%</b>'
@@ -278,7 +285,7 @@ function createPie(data) {
                 allowPointSelect: true,
                 cursor: 'pointer',
                 dataLabels: {
-                    enabled: false,
+                    enabled: true,
                 },
                 showInLegend: true
             }
@@ -475,9 +482,6 @@ function createBarChart(data, type, zoomLevel) {
 			}
 		}
 	}
-
-	// listCategory = [];
-	// listValue = [];
 
     barChart = new Highcharts.Chart({
         chart: {
