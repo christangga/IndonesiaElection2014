@@ -1414,7 +1414,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":1,
     "Tempat":"Simeulue Tengah",
     "Prabowo-Hatta":1105,
@@ -1423,7 +1423,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":2,
     "Tempat":"Salang",
     "Prabowo-Hatta":1071,
@@ -1432,7 +1432,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":3,
     "Tempat":"Teupah Barat",
     "Prabowo-Hatta":993,
@@ -1441,7 +1441,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":4,
     "Tempat":"Simeulue Timur",
     "Prabowo-Hatta":4222,
@@ -1450,7 +1450,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":5,
     "Tempat":"Teluk Dalam",
     "Prabowo-Hatta":732,
@@ -1459,7 +1459,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":6,
     "Tempat":"Simeulue Barat",
     "Prabowo-Hatta":905,
@@ -1468,7 +1468,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":7,
     "Tempat":"Teupah Selatan",
     "Prabowo-Hatta":908,
@@ -1477,7 +1477,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":8,
     "Tempat":"Alapan",
     "Prabowo-Hatta":671,
@@ -1486,7 +1486,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":9,
     "Tempat":"Teupah Tengah",
     "Prabowo-Hatta":931,
@@ -1495,7 +1495,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Aceh",
-    "Kota/Kabupaten":"?Simeulue",
+    "Kota/Kabupaten":"Simeulue",
     "No":10,
     "Tempat":"Simeulue Cut",
     "Prabowo-Hatta":456,
@@ -3124,7 +3124,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":1,
     "Tempat":"Tarutung",
     "Prabowo-Hatta":2140,
@@ -3133,7 +3133,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":2,
     "Tempat":"Siatas Barita",
     "Prabowo-Hatta":664,
@@ -3142,7 +3142,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":3,
     "Tempat":"Adian Koting",
     "Prabowo-Hatta":518,
@@ -3151,7 +3151,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":4,
     "Tempat":"Sipoholon",
     "Prabowo-Hatta":937,
@@ -3160,7 +3160,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":5,
     "Tempat":"Pahae Julu",
     "Prabowo-Hatta":586,
@@ -3169,7 +3169,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":6,
     "Tempat":"Pahae Jae",
     "Prabowo-Hatta":781,
@@ -3178,7 +3178,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":7,
     "Tempat":"Simangumban",
     "Prabowo-Hatta":677,
@@ -3187,7 +3187,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":8,
     "Tempat":"Purba Tua",
     "Prabowo-Hatta":482,
@@ -3196,7 +3196,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":9,
     "Tempat":"Siborong-Borong",
     "Prabowo-Hatta":1402,
@@ -3205,7 +3205,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":10,
     "Tempat":"Pagaran",
     "Prabowo-Hatta":308,
@@ -3214,7 +3214,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":11,
     "Tempat":"Parmonangan",
     "Prabowo-Hatta":303,
@@ -3223,7 +3223,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":12,
     "Tempat":"Sipahutar",
     "Prabowo-Hatta":680,
@@ -3232,7 +3232,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":13,
     "Tempat":"Pangaribuan",
     "Prabowo-Hatta":929,
@@ -3241,7 +3241,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":14,
     "Tempat":"Garoga",
     "Prabowo-Hatta":939,
@@ -3250,7 +3250,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Tapanuli Utara",
+    "Kota/Kabupaten":"Tapanuli Utara",
     "No":15,
     "Tempat":"Muara",
     "Prabowo-Hatta":229,
@@ -3835,7 +3835,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":1,
     "Tempat":"Gunung Meriah",
     "Prabowo-Hatta":346,
@@ -3844,7 +3844,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":2,
     "Tempat":"Tanjung Morawa",
     "Prabowo-Hatta":50814,
@@ -3853,7 +3853,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":3,
     "Tempat":"Sibolangit",
     "Prabowo-Hatta":1544,
@@ -3862,7 +3862,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":4,
     "Tempat":"Kutalimbaru",
     "Prabowo-Hatta":5877,
@@ -3871,7 +3871,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":5,
     "Tempat":"Pancur Batu",
     "Prabowo-Hatta":13925,
@@ -3880,7 +3880,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":6,
     "Tempat":"Namorambe",
     "Prabowo-Hatta":6089,
@@ -3889,7 +3889,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":7,
     "Tempat":"Sibiru-Biru",
     "Prabowo-Hatta":5521,
@@ -3898,7 +3898,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":8,
     "Tempat":"Stm Hilir",
     "Prabowo-Hatta":4333,
@@ -3907,7 +3907,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":9,
     "Tempat":"Bangun Purba",
     "Prabowo-Hatta":4991,
@@ -3916,7 +3916,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":10,
     "Tempat":"Galang",
     "Prabowo-Hatta":16946,
@@ -3925,7 +3925,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":11,
     "Tempat":"Stm Hulu",
     "Prabowo-Hatta":1163,
@@ -3934,7 +3934,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":12,
     "Tempat":"Patumbak",
     "Prabowo-Hatta":21441,
@@ -3943,7 +3943,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":13,
     "Tempat":"Deli Tua",
     "Prabowo-Hatta":15069,
@@ -3952,7 +3952,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":14,
     "Tempat":"Sunggal",
     "Prabowo-Hatta":52422,
@@ -3961,7 +3961,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":15,
     "Tempat":"Hamparan Perak",
     "Prabowo-Hatta":45254,
@@ -3970,7 +3970,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":16,
     "Tempat":"Labuhan Deli",
     "Prabowo-Hatta":15958,
@@ -3979,7 +3979,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":17,
     "Tempat":"Percut Sei Tuan",
     "Prabowo-Hatta":90238,
@@ -3988,7 +3988,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":18,
     "Tempat":"Batang Kuis",
     "Prabowo-Hatta":16241,
@@ -3997,7 +3997,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":19,
     "Tempat":"Lubuk Pakam",
     "Prabowo-Hatta":16623,
@@ -4006,7 +4006,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":20,
     "Tempat":"Pagar Merbau",
     "Prabowo-Hatta":8666,
@@ -4015,7 +4015,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":21,
     "Tempat":"Pantai Labu",
     "Prabowo-Hatta":10436,
@@ -4024,7 +4024,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Deli Serdang",
+    "Kota/Kabupaten":"Deli Serdang",
     "No":22,
     "Tempat":"Beringin",
     "Prabowo-Hatta":12260,
@@ -4033,7 +4033,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":1,
     "Tempat":"Siantar",
     "Prabowo-Hatta":12917,
@@ -4042,7 +4042,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":2,
     "Tempat":"Gunung Malela",
     "Prabowo-Hatta":8780,
@@ -4051,7 +4051,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":3,
     "Tempat":"Gunung Maligas",
     "Prabowo-Hatta":7666,
@@ -4060,7 +4060,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":4,
     "Tempat":"Panei",
     "Prabowo-Hatta":2220,
@@ -4069,7 +4069,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":5,
     "Tempat":"Panombeian Pane",
     "Prabowo-Hatta":3068,
@@ -4078,7 +4078,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":6,
     "Tempat":"Jorlang Hataran",
     "Prabowo-Hatta":1949,
@@ -4087,7 +4087,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":7,
     "Tempat":"Raya Kahean",
     "Prabowo-Hatta":2169,
@@ -4096,7 +4096,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":8,
     "Tempat":"Bosar Maligas",
     "Prabowo-Hatta":8759,
@@ -4105,7 +4105,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":9,
     "Tempat":"Sidamanik",
     "Prabowo-Hatta":3736,
@@ -4114,7 +4114,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":10,
     "Tempat":"Pematang Sidamanik",
     "Prabowo-Hatta":1896,
@@ -4123,7 +4123,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":11,
     "Tempat":"Tanah Jawa",
     "Prabowo-Hatta":8933,
@@ -4132,7 +4132,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":12,
     "Tempat":"Hatonduhan",
     "Prabowo-Hatta":2079,
@@ -4141,7 +4141,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":13,
     "Tempat":"Dolok Panribuan",
     "Prabowo-Hatta":865,
@@ -4150,7 +4150,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":14,
     "Tempat":"Purba",
     "Prabowo-Hatta":1039,
@@ -4159,7 +4159,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":15,
     "Tempat":"Haranggaol Horison",
     "Prabowo-Hatta":222,
@@ -4168,7 +4168,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":16,
     "Tempat":"Girsang Sipangan Bolon",
     "Prabowo-Hatta":860,
@@ -4177,7 +4177,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":17,
     "Tempat":"Dolok Batu Nanggar",
     "Prabowo-Hatta":11047,
@@ -4186,7 +4186,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":18,
     "Tempat":"Huta Bayu Raja",
     "Prabowo-Hatta":3696,
@@ -4195,7 +4195,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":19,
     "Tempat":"Jawa Maraja Bah Jambi",
     "Prabowo-Hatta":4883,
@@ -4204,7 +4204,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":20,
     "Tempat":"Dolok Pardamean",
     "Prabowo-Hatta":515,
@@ -4213,7 +4213,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":21,
     "Tempat":"Pematang Bandar",
     "Prabowo-Hatta":6474,
@@ -4222,7 +4222,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":22,
     "Tempat":"Bandar Huluan",
     "Prabowo-Hatta":6467,
@@ -4231,7 +4231,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":23,
     "Tempat":"Bandar",
     "Prabowo-Hatta":13056,
@@ -4240,7 +4240,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":24,
     "Tempat":"Bandar Masilam",
     "Prabowo-Hatta":6559,
@@ -4249,7 +4249,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":25,
     "Tempat":"Silimakuta",
     "Prabowo-Hatta":626,
@@ -4258,7 +4258,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":26,
     "Tempat":"Dolok Silau",
     "Prabowo-Hatta":850,
@@ -4267,7 +4267,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":27,
     "Tempat":"Silou Kahean",
     "Prabowo-Hatta":2095,
@@ -4276,7 +4276,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":28,
     "Tempat":"Tapian Dolok",
     "Prabowo-Hatta":9834,
@@ -4285,7 +4285,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":29,
     "Tempat":"Raya",
     "Prabowo-Hatta":2199,
@@ -4294,7 +4294,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":30,
     "Tempat":"Ujung Padang",
     "Prabowo-Hatta":8424,
@@ -4303,7 +4303,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Simalungun",
+    "Kota/Kabupaten":"Simalungun",
     "No":31,
     "Tempat":"Pamatang Silima Huta",
     "Prabowo-Hatta":336,
@@ -6238,7 +6238,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Kota Tebing Tinggi",
+    "Kota/Kabupaten":"Kota Tebing Tinggi",
     "No":1,
     "Tempat":"Padang Hulu",
     "Prabowo-Hatta":8051,
@@ -6247,7 +6247,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Kota Tebing Tinggi",
+    "Kota/Kabupaten":"Kota Tebing Tinggi",
     "No":2,
     "Tempat":"Rambutan",
     "Prabowo-Hatta":9399,
@@ -6256,7 +6256,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Kota Tebing Tinggi",
+    "Kota/Kabupaten":"Kota Tebing Tinggi",
     "No":3,
     "Tempat":"Padang Hilir",
     "Prabowo-Hatta":8635,
@@ -6265,7 +6265,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Kota Tebing Tinggi",
+    "Kota/Kabupaten":"Kota Tebing Tinggi",
     "No":4,
     "Tempat":"Bajenis",
     "Prabowo-Hatta":8907,
@@ -6274,7 +6274,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Utara",
-    "Kota/Kabupaten":"?Kota Tebing Tinggi",
+    "Kota/Kabupaten":"Kota Tebing Tinggi",
     "No":5,
     "Tempat":"Tebing Tinggi Kota",
     "Prabowo-Hatta":5861,
@@ -7696,7 +7696,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":1,
     "Tempat":"Sangir",
     "Prabowo-Hatta":13095,
@@ -7705,7 +7705,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":2,
     "Tempat":"Sungai Pagu",
     "Prabowo-Hatta":11577,
@@ -7714,7 +7714,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":3,
     "Tempat":"Koto Parik Gadang Diateh",
     "Prabowo-Hatta":7881,
@@ -7723,7 +7723,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":4,
     "Tempat":"Sangir Jujuan",
     "Prabowo-Hatta":5340,
@@ -7732,7 +7732,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":5,
     "Tempat":"Sangir Batang Hari",
     "Prabowo-Hatta":4920,
@@ -7741,7 +7741,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":6,
     "Tempat":"Pauh Duo",
     "Prabowo-Hatta":6437,
@@ -7750,7 +7750,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Solok Selatan",
+    "Kota/Kabupaten":"Solok Selatan",
     "No":7,
     "Tempat":"Sangir Balai Janggo",
     "Prabowo-Hatta":6098,
@@ -7858,7 +7858,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":1,
     "Tempat":"Padang Selatan",
     "Prabowo-Hatta":18798,
@@ -7867,7 +7867,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":2,
     "Tempat":"Padang Timur",
     "Prabowo-Hatta":29436,
@@ -7876,7 +7876,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":3,
     "Tempat":"Padang Barat",
     "Prabowo-Hatta":14141,
@@ -7885,7 +7885,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":4,
     "Tempat":"Padang Utara",
     "Prabowo-Hatta":20706,
@@ -7894,7 +7894,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":5,
     "Tempat":"Bungus Teluk Kabung",
     "Prabowo-Hatta":8788,
@@ -7903,7 +7903,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":6,
     "Tempat":"Lubuk Begalung",
     "Prabowo-Hatta":40409,
@@ -7912,7 +7912,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":7,
     "Tempat":"Lubuk Kilangan",
     "Prabowo-Hatta":18849,
@@ -7921,7 +7921,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":8,
     "Tempat":"Pauh",
     "Prabowo-Hatta":22167,
@@ -7930,7 +7930,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":9,
     "Tempat":"Kuranji",
     "Prabowo-Hatta":49867,
@@ -7939,7 +7939,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":10,
     "Tempat":"Nanggalo",
     "Prabowo-Hatta":21193,
@@ -7948,7 +7948,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Padang",
+    "Kota/Kabupaten":"Kota Padang",
     "No":11,
     "Tempat":"Koto Tangah",
     "Prabowo-Hatta":59801,
@@ -7975,7 +7975,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Sawahlunto",
+    "Kota/Kabupaten":"Kota Sawahlunto",
     "No":1,
     "Tempat":"Lembah Segar",
     "Prabowo-Hatta":5128,
@@ -7984,7 +7984,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Sawahlunto",
+    "Kota/Kabupaten":"Kota Sawahlunto",
     "No":2,
     "Tempat":"Barangin",
     "Prabowo-Hatta":7000,
@@ -7993,7 +7993,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Sawahlunto",
+    "Kota/Kabupaten":"Kota Sawahlunto",
     "No":3,
     "Tempat":"Silungkang",
     "Prabowo-Hatta":3880,
@@ -8002,7 +8002,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Sawahlunto",
+    "Kota/Kabupaten":"Kota Sawahlunto",
     "No":4,
     "Tempat":"Talawi",
     "Prabowo-Hatta":7466,
@@ -8056,7 +8056,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Payakumbuh",
+    "Kota/Kabupaten":"Kota Payakumbuh",
     "No":1,
     "Tempat":"Payakumbuh Barat",
     "Prabowo-Hatta":17746,
@@ -8065,7 +8065,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Payakumbuh",
+    "Kota/Kabupaten":"Kota Payakumbuh",
     "No":2,
     "Tempat":"Payakumbuh Utara",
     "Prabowo-Hatta":11739,
@@ -8074,7 +8074,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Payakumbuh",
+    "Kota/Kabupaten":"Kota Payakumbuh",
     "No":3,
     "Tempat":"Payakumbuh Timur",
     "Prabowo-Hatta":9517,
@@ -8083,7 +8083,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Payakumbuh",
+    "Kota/Kabupaten":"Kota Payakumbuh",
     "No":4,
     "Tempat":"Lamposi Tigo Nagori",
     "Prabowo-Hatta":3908,
@@ -8092,7 +8092,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Payakumbuh",
+    "Kota/Kabupaten":"Kota Payakumbuh",
     "No":5,
     "Tempat":"Payakumbuh Selatan",
     "Prabowo-Hatta":4221,
@@ -8101,7 +8101,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Pariaman",
+    "Kota/Kabupaten":"Kota Pariaman",
     "No":1,
     "Tempat":"Pariaman Tengah",
     "Prabowo-Hatta":12517,
@@ -8110,7 +8110,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Pariaman",
+    "Kota/Kabupaten":"Kota Pariaman",
     "No":2,
     "Tempat":"Pariaman Utara",
     "Prabowo-Hatta":7896,
@@ -8119,7 +8119,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Pariaman",
+    "Kota/Kabupaten":"Kota Pariaman",
     "No":3,
     "Tempat":"Pariaman Selatan",
     "Prabowo-Hatta":6952,
@@ -8128,7 +8128,7 @@ var dataKecamatan = [
   },
   {
     "Provinsi":"Sumatera Barat",
-    "Kota/Kabupaten":"?Kota Pariaman",
+    "Kota/Kabupaten":"Kota Pariaman",
     "No":4,
     "Tempat":"Pariaman Timur",
     "Prabowo-Hatta":6606,
@@ -14364,7 +14364,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":1,
     "Tempat":"Pringsewu",
@@ -14373,7 +14373,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":2,
     "Tempat":"Gading Rejo",
@@ -14382,7 +14382,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":3,
     "Tempat":"Ambarawa",
@@ -14391,7 +14391,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":4,
     "Tempat":"Pardasuka",
@@ -14400,7 +14400,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":5,
     "Tempat":"Pagelaran",
@@ -14409,7 +14409,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":6,
     "Tempat":"Banyumas",
@@ -14418,7 +14418,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":7,
     "Tempat":"Adiluwih",
@@ -14427,7 +14427,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":8,
     "Tempat":"Sukoharjo",
@@ -14436,7 +14436,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pringsewu",
     "No":9,
     "Tempat":"Pagelaran Utara",
@@ -14445,7 +14445,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":1,
     "Tempat":"Mesuji",
@@ -14454,7 +14454,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":2,
     "Tempat":"Mesuji Timur",
@@ -14463,7 +14463,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":3,
     "Tempat":"Rawa Jitu Utara",
@@ -14472,7 +14472,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":4,
     "Tempat":"Way Serdang",
@@ -14481,7 +14481,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":5,
     "Tempat":"Simpang Pematang",
@@ -14490,7 +14490,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":6,
     "Tempat":"Panca Jaya",
@@ -14499,7 +14499,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Mesuji",
     "No":7,
     "Tempat":"Tanjung Raya",
@@ -14508,7 +14508,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":1,
     "Tempat":"Tulang Bawang Tengah",
@@ -14517,7 +14517,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":2,
     "Tempat":"Tulang Bawang Udik",
@@ -14526,7 +14526,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":3,
     "Tempat":"Gunung Terang",
@@ -14535,7 +14535,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":4,
     "Tempat":"Lambu Kibang",
@@ -14544,7 +14544,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":5,
     "Tempat":"Tumijajar",
@@ -14553,7 +14553,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":6,
     "Tempat":"Pagar Dewa",
@@ -14562,7 +14562,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":7,
     "Tempat":"Gunung Agung",
@@ -14571,7 +14571,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang Barat",
     "No":8,
     "Tempat":"Way Kenanga",
@@ -14580,7 +14580,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":1,
     "Tempat":"Natar",
@@ -14589,7 +14589,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":2,
     "Tempat":"Tanjung Bintang",
@@ -14598,7 +14598,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":3,
     "Tempat":"Kalianda",
@@ -14607,7 +14607,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":4,
     "Tempat":"Sidomulyo",
@@ -14616,7 +14616,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":5,
     "Tempat":"Katibung",
@@ -14625,7 +14625,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":6,
     "Tempat":"Penengahan",
@@ -14634,7 +14634,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":7,
     "Tempat":"Palas",
@@ -14643,7 +14643,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":8,
     "Tempat":"Jati Agung",
@@ -14652,7 +14652,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":9,
     "Tempat":"Ketapang",
@@ -14661,7 +14661,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":10,
     "Tempat":"Sragi",
@@ -14670,7 +14670,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":11,
     "Tempat":"Raja Basa",
@@ -14679,7 +14679,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":12,
     "Tempat":"Candipuro",
@@ -14688,7 +14688,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":13,
     "Tempat":"Merbau Mataram",
@@ -14697,7 +14697,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":14,
     "Tempat":"Bakauheni",
@@ -14706,7 +14706,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":15,
     "Tempat":"Tanjung Sari",
@@ -14715,7 +14715,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":16,
     "Tempat":"Way Sulan",
@@ -14724,7 +14724,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Selatan",
     "No":17,
     "Tempat":"Way Panji",
@@ -14733,7 +14733,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":1,
     "Tempat":"Kalirejo",
@@ -14742,7 +14742,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":2,
     "Tempat":"Bangun Rejo",
@@ -14751,7 +14751,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":3,
     "Tempat":"Padang Ratu",
@@ -14760,7 +14760,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":4,
     "Tempat":"Gunung Sugih",
@@ -14769,7 +14769,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":5,
     "Tempat":"Trimurjo",
@@ -14778,7 +14778,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":6,
     "Tempat":"Punggur",
@@ -14787,7 +14787,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":7,
     "Tempat":"Terbanggi Besar",
@@ -14796,7 +14796,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":8,
     "Tempat":"Seputih Raman",
@@ -14805,7 +14805,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":9,
     "Tempat":"Rumbia",
@@ -14814,7 +14814,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":10,
     "Tempat":"Seputih Banyak",
@@ -14823,7 +14823,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":11,
     "Tempat":"Seputih Mataram",
@@ -14832,7 +14832,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":12,
     "Tempat":"Seputih Surabaya",
@@ -14841,7 +14841,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":13,
     "Tempat":"Terusan Nunyai",
@@ -14850,7 +14850,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":14,
     "Tempat":"Bumi Ratu Nuban",
@@ -14859,7 +14859,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":15,
     "Tempat":"Bekri",
@@ -14868,7 +14868,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":16,
     "Tempat":"Seputih Agung",
@@ -14877,7 +14877,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":17,
     "Tempat":"Way Pangubuan",
@@ -14886,7 +14886,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":18,
     "Tempat":"Bandar Mataram",
@@ -14895,7 +14895,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":19,
     "Tempat":"Pubian",
@@ -14904,7 +14904,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":20,
     "Tempat":"Selagai Lingga",
@@ -14913,7 +14913,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":21,
     "Tempat":"Anak Tuha",
@@ -14922,7 +14922,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":22,
     "Tempat":"Sendang Agung",
@@ -14931,7 +14931,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":23,
     "Tempat":"Kota Gajah",
@@ -14940,7 +14940,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":24,
     "Tempat":"Bumi Nabung",
@@ -14949,7 +14949,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":25,
     "Tempat":"Way Seputih",
@@ -14958,7 +14958,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":26,
     "Tempat":"Bandar Surabaya",
@@ -14967,7 +14967,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":27,
     "Tempat":"Anak Ratu Aji",
@@ -14976,7 +14976,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Tengah",
     "No":28,
     "Tempat":"Putra Rumbia",
@@ -14985,7 +14985,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":1,
     "Tempat":"Bukit Kemuning",
@@ -14994,7 +14994,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":2,
     "Tempat":"Kotabumi",
@@ -15003,7 +15003,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":3,
     "Tempat":"Sungkai Selatan",
@@ -15012,7 +15012,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":4,
     "Tempat":"Tanjung Raja",
@@ -15021,7 +15021,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":5,
     "Tempat":"Abung Timur",
@@ -15030,7 +15030,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":6,
     "Tempat":"Abung Barat",
@@ -15039,7 +15039,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":7,
     "Tempat":"Abung Selatan",
@@ -15048,7 +15048,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":8,
     "Tempat":"Sungkai Utara",
@@ -15057,7 +15057,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":9,
     "Tempat":"Kotabumi Utara",
@@ -15066,7 +15066,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":10,
     "Tempat":"Kotabumi Selatan",
@@ -15075,7 +15075,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":11,
     "Tempat":"Abung Tengah",
@@ -15084,7 +15084,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":12,
     "Tempat":"Abung Tinggi",
@@ -15093,7 +15093,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":13,
     "Tempat":"Abung Semuli",
@@ -15102,7 +15102,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":14,
     "Tempat":"Abung Surakarta",
@@ -15111,7 +15111,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":15,
     "Tempat":"Muara Sungkai",
@@ -15120,7 +15120,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":16,
     "Tempat":"Bunga Mayang",
@@ -15129,7 +15129,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":17,
     "Tempat":"Hulu Sungkai",
@@ -15138,7 +15138,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":18,
     "Tempat":"Sungkai Tengah",
@@ -15147,7 +15147,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":19,
     "Tempat":"Abung Pekurun",
@@ -15156,7 +15156,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":20,
     "Tempat":"Sungkai Jaya",
@@ -15165,7 +15165,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":21,
     "Tempat":"Sungkai Barat",
@@ -15174,7 +15174,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":22,
     "Tempat":"Abung Kunang",
@@ -15183,7 +15183,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Utara",
     "No":23,
     "Tempat":"Blambangan Pagar",
@@ -15192,7 +15192,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":1,
     "Tempat":"Pesisir Selatan",
@@ -15201,7 +15201,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":2,
     "Tempat":"Pesisir Tengah",
@@ -15210,7 +15210,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":3,
     "Tempat":"Pesisir Utara",
@@ -15219,7 +15219,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":4,
     "Tempat":"Balik Bukit",
@@ -15228,7 +15228,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":5,
     "Tempat":"Sumber Jaya",
@@ -15237,7 +15237,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":6,
     "Tempat":"Belalau",
@@ -15246,7 +15246,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":7,
     "Tempat":"Way Tenong",
@@ -15255,7 +15255,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":8,
     "Tempat":"Sekincau",
@@ -15264,7 +15264,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":9,
     "Tempat":"Suoh",
@@ -15273,7 +15273,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":10,
     "Tempat":"Batu Brak",
@@ -15282,7 +15282,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":11,
     "Tempat":"Sukau",
@@ -15291,7 +15291,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":12,
     "Tempat":"Karya Penggawa",
@@ -15300,7 +15300,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":13,
     "Tempat":"Lemong",
@@ -15309,7 +15309,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":14,
     "Tempat":"Bengkunat",
@@ -15318,7 +15318,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":15,
     "Tempat":"Gedung Surian",
@@ -15327,7 +15327,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":16,
     "Tempat":"Ngambur",
@@ -15336,7 +15336,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":17,
     "Tempat":"Bangkunat Belimbing",
@@ -15345,7 +15345,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":18,
     "Tempat":"Krui Selatan",
@@ -15354,7 +15354,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":19,
     "Tempat":"Way Krui",
@@ -15363,7 +15363,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":20,
     "Tempat":"Lumbok Seminung",
@@ -15372,7 +15372,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":21,
     "Tempat":"Air Hitam",
@@ -15381,7 +15381,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":22,
     "Tempat":"Kebun Tebu",
@@ -15390,7 +15390,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":23,
     "Tempat":"Pagar Dewa",
@@ -15399,7 +15399,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":24,
     "Tempat":"Batu Ketulis",
@@ -15408,7 +15408,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":25,
     "Tempat":"Bandar Negeri Suoh",
@@ -15417,7 +15417,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Barat",
     "No":26,
     "Tempat":"Pulaupisang",
@@ -15426,7 +15426,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":1,
     "Tempat":"Menggala",
@@ -15435,7 +15435,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":2,
     "Tempat":"Gedung Aji",
@@ -15444,7 +15444,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":3,
     "Tempat":"Banjar Agung",
@@ -15453,7 +15453,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":4,
     "Tempat":"Gedung Meneng",
@@ -15462,7 +15462,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":5,
     "Tempat":"Rawa Jitu Selatan",
@@ -15471,7 +15471,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":6,
     "Tempat":"Penawar Tama",
@@ -15480,7 +15480,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":7,
     "Tempat":"Rawa Jitu Timur",
@@ -15489,7 +15489,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":8,
     "Tempat":"Banjar Margo",
@@ -15498,7 +15498,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":9,
     "Tempat":"Rawa Pitu",
@@ -15507,7 +15507,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":10,
     "Tempat":"Penawar Aji",
@@ -15516,7 +15516,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":11,
     "Tempat":"Meraksa Aji",
@@ -15525,7 +15525,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":12,
     "Tempat":"Gedung Aji Baru",
@@ -15534,7 +15534,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":13,
     "Tempat":"Dente Teladas",
@@ -15543,7 +15543,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":14,
     "Tempat":"Banjar Baru",
@@ -15552,7 +15552,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tulang Bawang",
     "No":15,
     "Tempat":"Menggala Timur",
@@ -15561,7 +15561,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":1,
     "Tempat":"Kota Agung",
@@ -15570,7 +15570,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":2,
     "Tempat":"Talang Padang",
@@ -15579,7 +15579,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":3,
     "Tempat":"Wonosobo",
@@ -15588,7 +15588,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":4,
     "Tempat":"Pulau Panggung",
@@ -15597,7 +15597,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":5,
     "Tempat":"Cukuh Balak",
@@ -15606,7 +15606,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":6,
     "Tempat":"Pugung",
@@ -15615,7 +15615,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":7,
     "Tempat":"Semaka",
@@ -15624,7 +15624,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":8,
     "Tempat":"Sumber Rejo",
@@ -15633,7 +15633,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":9,
     "Tempat":"Ulu Belu",
@@ -15642,7 +15642,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":10,
     "Tempat":"Pematang Sawa",
@@ -15651,7 +15651,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":11,
     "Tempat":"Klumbayan",
@@ -15660,7 +15660,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":12,
     "Tempat":"Kota Agung Barat",
@@ -15669,7 +15669,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":13,
     "Tempat":"Kota Agung Timur",
@@ -15678,7 +15678,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":14,
     "Tempat":"Gisting",
@@ -15687,7 +15687,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":15,
     "Tempat":"Gunung Alip",
@@ -15696,7 +15696,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":16,
     "Tempat":"Limau",
@@ -15705,7 +15705,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":17,
     "Tempat":"Bandar Negeri Semuong",
@@ -15714,7 +15714,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":18,
     "Tempat":"Air Naningan",
@@ -15723,7 +15723,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":19,
     "Tempat":"Bulok",
@@ -15732,7 +15732,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Tanggamus",
     "No":20,
     "Tempat":"Klumbayan Barat",
@@ -15741,7 +15741,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":1,
     "Tempat":"Sukadana",
@@ -15750,7 +15750,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":2,
     "Tempat":"Labuhan Maringgai",
@@ -15759,7 +15759,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":3,
     "Tempat":"Jabung",
@@ -15768,7 +15768,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":4,
     "Tempat":"Pekalongan",
@@ -15777,7 +15777,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":5,
     "Tempat":"Sekampung",
@@ -15786,7 +15786,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":6,
     "Tempat":"Batanghari",
@@ -15795,7 +15795,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":7,
     "Tempat":"Way Jepara",
@@ -15804,7 +15804,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":8,
     "Tempat":"Purbolinggo",
@@ -15813,7 +15813,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":9,
     "Tempat":"Raman Utara",
@@ -15822,7 +15822,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":10,
     "Tempat":"Metro Kibang",
@@ -15831,7 +15831,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":11,
     "Tempat":"Marga Tiga",
@@ -15840,7 +15840,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":12,
     "Tempat":"Sekampung Udik",
@@ -15849,7 +15849,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":13,
     "Tempat":"Batanghari Nuban",
@@ -15858,7 +15858,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":14,
     "Tempat":"Bumi Agung",
@@ -15867,7 +15867,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":15,
     "Tempat":"Bandar Sribhawono",
@@ -15876,7 +15876,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":16,
     "Tempat":"Mataram Baru",
@@ -15885,7 +15885,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":17,
     "Tempat":"Melinting",
@@ -15894,7 +15894,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":18,
     "Tempat":"Gunung Pelindung",
@@ -15903,7 +15903,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":19,
     "Tempat":"Pasir Sakti",
@@ -15912,7 +15912,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":20,
     "Tempat":"Waway Karya",
@@ -15921,7 +15921,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":21,
     "Tempat":"Labuhan Ratu",
@@ -15930,7 +15930,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":22,
     "Tempat":"Braja Selebah",
@@ -15939,7 +15939,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":23,
     "Tempat":"Way Bungur",
@@ -15948,7 +15948,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Lampung Timur",
     "No":24,
     "Tempat":"Marga Sekampung",
@@ -15957,7 +15957,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":1,
     "Tempat":"Blambangan Umpu",
@@ -15966,7 +15966,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":2,
     "Tempat":"Kasui",
@@ -15975,7 +15975,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":3,
     "Tempat":"Banjit",
@@ -15984,7 +15984,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":4,
     "Tempat":"Baradatu",
@@ -15993,7 +15993,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":5,
     "Tempat":"Bahuga",
@@ -16002,7 +16002,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":6,
     "Tempat":"Pakuan Ratu",
@@ -16011,7 +16011,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":7,
     "Tempat":"Negeri Agung",
@@ -16020,7 +16020,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":8,
     "Tempat":"Way Tuba",
@@ -16029,7 +16029,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":9,
     "Tempat":"Rebang Tangkas",
@@ -16038,7 +16038,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":10,
     "Tempat":"Gunung Labuhan",
@@ -16047,7 +16047,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":11,
     "Tempat":"Negara Batin",
@@ -16056,7 +16056,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":12,
     "Tempat":"Negeri Besar",
@@ -16065,7 +16065,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":13,
     "Tempat":"Buay Bahuga",
@@ -16074,7 +16074,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Way Kanan",
     "No":14,
     "Tempat":"Bumi Agung",
@@ -16083,7 +16083,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":1,
     "Tempat":"Kedaton",
@@ -16092,7 +16092,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":2,
     "Tempat":"Sukarame",
@@ -16101,7 +16101,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":3,
     "Tempat":"Tanjungkarang Barat",
@@ -16110,7 +16110,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":4,
     "Tempat":"Panjang",
@@ -16119,7 +16119,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":5,
     "Tempat":"Tanjungkarang Timur",
@@ -16128,7 +16128,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":6,
     "Tempat":"Tanjungkarang Pusat",
@@ -16137,7 +16137,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":7,
     "Tempat":"Telukbetung Selatan",
@@ -16146,7 +16146,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":8,
     "Tempat":"Telukbetung Barat",
@@ -16155,7 +16155,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":9,
     "Tempat":"Telukbetung Utara",
@@ -16164,7 +16164,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":10,
     "Tempat":"Rajabasa",
@@ -16173,7 +16173,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":11,
     "Tempat":"Tanjung Senang",
@@ -16182,7 +16182,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":12,
     "Tempat":"Sukabumi",
@@ -16191,7 +16191,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":13,
     "Tempat":"Kemiling",
@@ -16200,7 +16200,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":14,
     "Tempat":"Labuhan Ratu",
@@ -16209,7 +16209,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":15,
     "Tempat":"Way Halim",
@@ -16218,7 +16218,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":16,
     "Tempat":"Langkapura",
@@ -16227,7 +16227,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":17,
     "Tempat":"Enggal",
@@ -16236,7 +16236,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":18,
     "Tempat":"Kedamaian",
@@ -16245,7 +16245,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":19,
     "Tempat":"Telukbetung Timur",
@@ -16254,7 +16254,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Bandar Lampung",
     "No":20,
     "Tempat":"Bumi Waras",
@@ -16263,7 +16263,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Metro",
     "No":1,
     "Tempat":"Metro Pusat",
@@ -16272,7 +16272,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Metro",
     "No":2,
     "Tempat":"Metro Utara",
@@ -16281,7 +16281,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Metro",
     "No":3,
     "Tempat":"Metro Barat",
@@ -16290,7 +16290,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Metro",
     "No":4,
     "Tempat":"Metro Timur",
@@ -16299,7 +16299,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Kota Metro",
     "No":5,
     "Tempat":"Metro Selatan",
@@ -16308,7 +16308,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":1,
     "Tempat":"Gedong Tataan",
@@ -16317,7 +16317,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":2,
     "Tempat":"Negeri Katon",
@@ -16326,7 +16326,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":3,
     "Tempat":"Tegineneng",
@@ -16335,7 +16335,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":4,
     "Tempat":"Way Lima",
@@ -16344,7 +16344,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":5,
     "Tempat":"Padang Cermin",
@@ -16353,7 +16353,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":6,
     "Tempat":"Punduh Pidada",
@@ -16362,7 +16362,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":7,
     "Tempat":"Kedondong",
@@ -16371,7 +16371,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":8,
     "Tempat":"Marga Punduh",
@@ -16380,7 +16380,7 @@ var dataKecamatan = [
     "FIELD7":""
   },
   {
-    "Provinsi":"?Lampung",
+    "Provinsi":"Lampung",
     "Kota/Kabupaten":"Pesawaran",
     "No":9,
     "Tempat":"Way Khilau",
