@@ -340,6 +340,22 @@ function createStackedBar(suaraJK, suaraPB) {
             reversed: true
         },
         plotOptions: {
+        	bar: {
+				dataLabels: {
+					enabled: true,
+					formatter: function ()  {      
+						if (this.y > suaraPB)
+							return "Koalisi Indonesia Hebat " + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%';
+						else
+							return "Koalisi Merah Putih " + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%';
+					},
+					color: '#FFFFFF',
+ 					style: {
+				        fontSize: '13px',
+				        fontFamily: 'Montserrat, sans-serif'
+			    	}
+				}
+			},
             series: {
                 stacking: 'normal'
             }
@@ -352,8 +368,7 @@ function createStackedBar(suaraJK, suaraPB) {
         },
         tooltip : {
 	        formatter: function() {
-	            var tooltip = '<b>Persentase Perolehan Suara: </b>' + ((this.y/(suaraJK+suaraPB))*100).toFixed(2) + '%'
-	            				+ '<br><b>Total Suara Diperoleh: </b>' + numberWithCommas(this.y);
+	            var tooltip = '<b>Total Suara Diperoleh: </b>' + numberWithCommas(this.y) + ' suara';
 	            return tooltip;
 	        }
 	    },
