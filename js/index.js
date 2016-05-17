@@ -74,8 +74,8 @@ map.on('zoomend', function() {
 		createBarChart('', 1, zoomLevel); // utk prabowo
 		createBarChart('', 2, zoomLevel); // utk jokowi
 		// $('#tree-container').hide('slow');
-		var treeContainer = document.getElementById("tree-container");
-		treeContainer.style.display = 'none';
+		// var treeContainer = document.getElementById("tree-container");
+		// treeContainer.style.display = 'none';
 	}
 });
 var suaraJK = 70997607, suaraPB = 62576585;
@@ -242,8 +242,8 @@ function createTreeMap(data) {
 	});
 
 	// $('#tree-container').show('slow');
-	var treeContainer = document.getElementById("tree-container");
-	treeContainer.style.display = 'block';
+	// var treeContainer = document.getElementById("tree-container");
+	// treeContainer.style.display = 'block';
 }
 
 function createPie(data) {
